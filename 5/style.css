@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+
+.container{
+    height:100vh;
+    width: 100vh;
+    position: relative;
+    
+    
+}
+
+.outside-box{
+    
+    height:50vh;
+    width:9vw;
+    position:absolute;
+    top:28vh;
+    left:50vw;
+    transform: translateX(-50%);
+    background-color: grey;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.light-box{
+    height:33%;
+    width:auto;
+    background-color: black;
+    display:flex
+}
+.light{
+    width:70%;
+    height:70%;
+    border-radius:50%
+}
+#red{
+    background-color: black;
+}
+#yellow{
+    background-color: black;
+}
+#green{
+    background-color:black;
+}
